@@ -1,0 +1,14 @@
+.nav{
+    height: 10%;
+}
+
+.main{
+    height: 90%;
+    background-color: #b2b7c6;
+    padding-left: 5%;
+    padding-top: 14%;
+}
+
+#body{
+    background-color: #b2b7c6;
+}
