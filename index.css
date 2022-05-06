@@ -4,11 +4,166 @@
 
 .main{
     height: 90%;
-    background-color: #b2b7c6;
+    background-color: white;
     padding-left: 5%;
     padding-top: 14%;
+    color: #FF87AB;
 }
 
 #body{
-    background-color: #b2b7c6;
+    background-color: white; 
+    position: relative;
 }
+
+a{
+    color: #FF47DA; 
+}
+
+a:hover{
+    text-decoration: line-through;
+    text-decoration-color: #FCC8C2;
+    color: #1B065E;
+
+}
+
+a:visited{
+    color: #FF47DA;
+}
+
+a::after{
+    text-decoration: line-through;
+}
+
+#circleone {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-image: linear-gradient(#FCC8C2, #ff47da73);
+    border-radius: 50%;
+    left: 5%;
+    top:25%;
+  }
+  #circletwo {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(#DCFFFD, #FF87AB);
+    border-radius: 50%;
+    left: 50%;
+    top:5%;
+  }
+
+  #circlethree {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    background-image: linear-gradient(#ff47da9b, #DCFFFD);
+    border-radius: 50%;
+    left: 40%;
+    top:90%;
+  }
+
+  #about{
+      position: absolute;
+      right: 40%;
+      bottom:10%;
+      color: #FF87AB;
+  }
+
+#worktitle{
+    position: absolute;
+    left: 5%; 
+    top:5%; 
+}
+
+#pic{
+    position: absolute;
+    left: 25%;
+}
+
+.top-row{
+    height: 300px;
+    
+}
+
+#photographytitle{
+    position: absolute;
+    left: 44%; 
+    top:5%; 
+}
+
+#photo{
+    height:max-content;
+    width: max-content;
+}
+
+#img-row{
+    top: 300px;
+}
+
+.button {
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+  }
+
+  #pic:hover{
+      background-color: #FF47DA;
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #FCC8C2;
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    transition: all 5s ease-in-out;
+    top: 5%;
+  }
+  
+  .popup h2 {
+    margin-top: 0;
+    color: #FF47DA;
+  }
+  .popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #1B065E;
+  }
+  .popup .close:hover {
+    color: #FF47DA;
+  }
+  .popup .content {
+    max-height: 70%;
+    overflow: auto;
+    color: #1B065E;
+  }
+  
+  @media screen and (max-width: 700px){
+    .box{
+      width: 70%;
+    }
+    .popup{
+      width: 70%;
+    }
+  }
