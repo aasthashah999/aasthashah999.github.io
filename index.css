@@ -1,5 +1,5 @@
 .nav{
-    height: 10%;
+    height: 11%;
 }
 
 .main{
@@ -45,8 +45,8 @@ a::after{
   }
   #circletwo {
     position: absolute;
-    width: 200px;
-    height: 200px;
+    width: 210px;
+    height: 210px;
     background-image: linear-gradient(#DCFFFD, #FF87AB);
     border-radius: 50%;
     left: 50%;
