@@ -167,3 +167,25 @@ a::after{
       width: 70%;
     }
   }
+
+  .ss_img{
+    position: relative;
+    width: 210px;
+    height: auto;
+    left: 28%;
+  }
+
+  .ss_img1{
+    position: relative;
+    width: 210px;
+    height: auto;
+    left: 58%;
+  }
+
+  .ss_img2{
+    position: relative;
+    width: 210px;
+    height: auto;
+    right: 45%;
+
+  }
